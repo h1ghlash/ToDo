@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="NewLab.css">
+    <script defer src="ToDo.js" ></script>
+</head>
+<body>
+<div class = "todo">
+<div class="container">
+    <div id="header" >
+        <h1>Список дел</h1>
+    </div>
+        <div>
+            <input class="todo__text" type="text" />
+            <button class = "todo__add" > +
+            </button>
+            <select class="todo__options" >
+                <option value="active">Активные</option>
+                <option value="completed">Выполненные</option>
+                <option value="deleted">Удаленные</option>
+            </select>
+        </div>
+</div>
+
+    <ul class="todo__items" data-todo-options="action">
+    </ul>
+
+</div>
+</body>
+</html>
